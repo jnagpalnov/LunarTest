@@ -36,8 +36,3 @@ Feature: Weather Testing
     When User makes request to get weather details by "35" latitude and "367jk675" longitude
     Then Verify request response code is 400 and contains "wrong longitude" message
 
-#  Scenario: Validate all the weather details
-#    When User makes request to get weather details by "London" city and "UK" country
-#    Then Verify request is successful and verify the every field of response body
-
-

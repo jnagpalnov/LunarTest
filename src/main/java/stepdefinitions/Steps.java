@@ -24,22 +24,6 @@ public class Steps {
 
     }
 
-//    @And("User makes a request for creating a list")
-//    public void createList(DataTable table) throws Throwable{
-//        // Set the create list request data like list name,iso_639_1,description,public and iso_3166_1
-//        ListRequest listRequest = setListRequest(table);
-//        //Making post request for creating list
-//        validatableResponse=given()
-//                .queryParam("api_key",CommonUtils.getCentralData("api_key"))
-//                .header("Authorization", CommonUtils.getCentralData("authorization"))
-//                .header("Content-Type", "application/json;charset=utf-8")
-//                .pathParam("version",CommonUtils.getCentralData("version"))
-//                .body(listRequest)
-//                .when()
-//                .post("/{version}/list")
-//                .then();
-//    }
-
     @When("User makes request to get weather details by {string} city and {string} country")
     public void userMakesRequestToGetWeatherDetailsByCityAndCountry(String city, String country) {
         validatableResponse = given()
@@ -119,5 +103,4 @@ public class Steps {
         Assertions.assertEquals(String.valueOf(code), errorCode);
         Assertions.assertEquals(message, responseMessage);
     }
-
 }

@@ -7,10 +7,7 @@ public class Main {
     private Double temp_max;
     private int pressure;
     private int humidity;
-
-
     // Getter Methods
-
     public Double getTemp() {
         return temp;
     }

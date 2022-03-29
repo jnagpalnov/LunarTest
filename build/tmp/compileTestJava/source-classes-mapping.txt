@@ -1,2 +1,0 @@
-runner/CucumberTestsRunner.java
- runner.CucumberTestsRunner

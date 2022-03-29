@@ -6,10 +6,7 @@ public class Sys {
     private String country;
     private float sunrise;
     private float sunset;
-
-
     // Getter Methods
-
     public float getType() {
         return type;
     }
