@@ -1,0 +1,18 @@
+responses/Clouds.java
+ responses.Clouds
+stepdefinitions/Steps.java
+ stepdefinitions.Steps
+responses/Weather.java
+ responses.Weather
+commonutils/CommonUtils.java
+ commonutils.CommonUtils
+responses/Main.java
+ responses.Main
+responses/Sys.java
+ responses.Sys
+responses/Coord.java
+ responses.Coord
+responses/Wind.java
+ responses.Wind
+responses/WeatherResponse.java
+ responses.WeatherResponse

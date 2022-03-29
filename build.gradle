@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    implementation 'org.junit.jupiter:junit-jupiter-engine'
+    implementation 'io.rest-assured:rest-assured:5.0.0'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'io.cucumber:cucumber-java:7.2.3'
+    implementation 'io.cucumber:cucumber-junit:7.2.3'
+    implementation 'com.trivago.rta:cluecumber-report-plugin:2.8.0'
+}
+
+test {
+   // useJUnitPlatform()
+}
